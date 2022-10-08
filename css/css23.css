@@ -1,0 +1,132 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+header{
+    margin-top: 100px;
+}
+header h1{
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+header h2{
+    text-align: center;
+    font-size: 2.1em;
+    margin-top: -10px;
+}
+
+header p{
+    text-align: center;
+    width: 34%;
+    margin-left: 450px;
+    font-size: 0.9em;
+    margin-top: -10px;
+    opacity: 0.5;
+}
+
+section{
+    display: flex;
+flex-wrap: wrap;
+}
+
+
+.containers{
+    background-color: rgba(255, 255, 255, 0.185);
+    width: 17em;
+    padding: 20px 50px;
+    height: 220px;
+    box-shadow: 0 14px 21px #00000031;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+}
+
+.container-1{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+
+}
+
+.container-1::before{
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 0;
+    background-color:hsl(180, 62%, 55%) ;
+    width: 97%;
+    height: 3px;
+}
+
+.container-2::before{
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 0;
+    background-color:hsl(0, 78%, 62%) ;
+    width: 97%;
+    height: 3px;
+}
+
+.container-3{
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+.container-3::before{
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 0;
+    background-color:hsl(212, 86%, 64%) ;
+    width: 97%;
+    height: 3px;
+}
+
+.container-4{
+    margin-top: 20px;
+}
+
+.container-4::before{
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 0;
+    background-color:hsl(34, 97%, 64%) ;
+    width: 97%;
+    height: 3px;   
+}
+
+
+
+
+.logo{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media(min-width: 1440px){
+    header p{
+        margin-left: 500px;
+        font-size: 1em;
+    }
+    .container-3{
+        margin-left: 20px;
+    }
+
+    .container{
+        margin-left: 0px;
+    }
+
+    .container-1{
+        margin-left: 180px;
+    }
+}
